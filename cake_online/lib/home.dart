@@ -1,3 +1,4 @@
+import 'package:cake_online/widget/nav_bar.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -14,6 +15,13 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Mentari Cakery"),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: const Color(0xFFF17532),
+        child: const Icon(Icons.fastfood),
+      ),
+      bottomNavigationBar: NavBar(),
     );
   }
 }
