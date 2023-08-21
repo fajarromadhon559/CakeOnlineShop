@@ -52,4 +52,11 @@ final List<Cake> listCakes = [
       imageUrl: 'assets/cake5.jpg',
       isFavorite: true,
       subMenu: 'cake_box'),
+  Cake(
+      id: 6,
+      name: 'Chocolate Cake',
+      price: '121.000',
+      imageUrl: 'assets/cake3.jpg',
+      isFavorite: true,
+      subMenu: 'cake_box'),
 ];
